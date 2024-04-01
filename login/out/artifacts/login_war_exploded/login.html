@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="content">
+            <div class="login-wrapper">
+                <h1>登录</h1>
+                <div class="login-form">
+                    <form action="LoginServlet" method="post">
+                    <div class="username form-item">
+                        <span>用户名</span>
+                        <input type="text" name="username" class="input-item">
+                    </div>
+                    <div class="password form-item">
+                        <span>密码</span>
+                        <input type="password" name="password" class="input-item">
+                    </div>
+                    <input type="submit" value="登录" class="login-btn">
+                    </form>
+                </div>
+                <div class="divider">
+                    <span class="line"></span>
+                    <span class="divider-text">其他方式登录</span>
+                    <span class="line"></span>
+                </div>
+                <div class="other-login-wrapper">
+                    <div class="other-login-item">
+                        <img src="./asset/QQ.png" alt="">
+                    </div>
+                    <div class="other-login-item">
+                        <img src="./asset/WeChat.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
